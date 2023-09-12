@@ -50,23 +50,20 @@ To start the server, compile and run the `server.cpp` file. You will be prompted
 ```bash
 $ g++ server.cpp -o server -lpthread
 $ ./server [PORT_NUMBER]
-
+```
 ### Client
 
 To connect a client to the server, follow these steps:
-
 1. Compile the `client.cpp` file using the following command:
 
     ```bash
     $ g++ client.cpp -o client -lpthread
     ```
-
 2. Run the client with your desired username and the server's port number:
 
     ```bash
     $ ./client [USERNAME] [SERVER_PORT_NUMBER]
     ```
-
 3. Once connected, you can start sending messages to other clients.
 
 ## Conclusion
